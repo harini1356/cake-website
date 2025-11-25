@@ -791,20 +791,6 @@
                                 <div class="form-group text-center">
                                     <input type="submit" value="Order Your Cake" class="btn btn-primary py-3 px-5">
                                     
-                                    <script>
-                                        function sendWhatsAppMessage() {
-                                            let name = document.querySelector('input[placeholder="John Doe"]').value.trim();
-                                            let email = document.querySelector('input[placeholder="johndoe@gmail.com"]').value.trim();
-                                            let address = document.querySelector('input[placeholder="XYZ"]').value.trim();
-                                            let phone = document.querySelector('input[placeholder="9874563215"]').value.trim();
-                                            let date = document.getElementById("book_date").value;
-                                            let time = document.getElementById("book_time").value;
-                                            let flavour = document.querySelector("select.form-control").value;
-                                            let message = New Cake Order:%0A%0A +👤 Name: ${name}%0A +📧 Email: ${email}%0A +📍 Address: ${address}%0A +📱 Phone: ${phone}%0A +📅 Date: ${date}%0A +⏰ Time: ${time}%0A 🍰 Cake Flavour: ${flavour};
-                                            let whatsappNumber = "919500336854";
-                                            let url = https://wa.me/${whatsappNumber}?text=${message};
-                                            window.open(url, "_blank");
-                                    </script>
                                 </div>
                             </div>
                         </div>
@@ -978,6 +964,7 @@
 
 
 </html>
+
 
 
 
